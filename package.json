@@ -1,7 +1,7 @@
 {
   "name": "side-cart-react",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tutorial to integrate the react.js into shopify theme",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --config webpack.dev.js --progress --color",
@@ -11,19 +11,27 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "reactjs-popup": "^1.5.0",
     "v8-compile-cache": "^2.3.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.10.4",
-    "@babel/preset-env": "^7.10.4",
-    "@babel/preset-react": "^7.10.4",
-    "babel-loader": "^8.1.0",
-    "core-js": "^3.6.5",
-    "webpack": "^4.43.0",
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^8.3.0",
+    "core-js": "^3.27.0",
+    "webpack": "^4.46.0",
     "webpack-cli": "^3.3.12",
-    "webpack-merge": "^5.0.9"
-  }
+    "webpack-merge": "^5.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tat-g/integrate-react.js-into-shopify-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tat-g/integrate-react.js-into-shopify-theme/issues"
+  },
+  "homepage": "https://github.com/tat-g/integrate-react.js-into-shopify-theme#readme"
 }
